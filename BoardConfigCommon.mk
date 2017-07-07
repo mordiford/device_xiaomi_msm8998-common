@@ -54,6 +54,9 @@ BOARD_KERNEL_CMDLINE += swiotlb=2048
 # Platform
 TARGET_BOARD_PLATFORM := msm8998
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-uart"
 
