@@ -345,6 +345,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libstdc++.vendor \
     vndk_package
 
 # TextClassifier smart selection model files
