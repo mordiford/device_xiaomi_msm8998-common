@@ -142,10 +142,10 @@ vendor/lib/libremosaic_daemon.so
 vendor/lib/libXMFD_AgeGender.so
 
 # Camera (MIUI)
-lib/libCameraEffectJNI.so
-lib/libmorpho_memory_allocator.so
-lib/libmorpho_panorama.so
-lib/libmorpho_panorama_gp.so
+lib64/libCameraEffectJNI.so
+lib64/libmorpho_memory_allocator.so
+lib64/libmorpho_panorama.so
+lib64/libmorpho_panorama_gp.so
 
 # Camera eeprom
 vendor/lib/libSonyIMX386PdafLibrary.so
