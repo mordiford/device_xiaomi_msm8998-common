@@ -4,11 +4,11 @@ persist.camera.                                               u:object_r:camera_
 persist.vendor.camera.                                        u:object_r:camera_prop:s0
 
 # Fingerprint
-persist.vendor.sys.fp.                                        u:object_r:vendor_fp_prop:s0
+persist.sys.fp.                                        u:object_r:vendor_fp_prop:s0
 ro.boot.fpsensor                                              u:object_r:vendor_fp_prop:s0
 
 # Mlipay
-persist.vendor.sys.pay.ifaa                                   u:object_r:ifaa_prop:s0
+persist.sys.ifaa                                              u:object_r:ifaa_prop:s0
 
 # Radio
 ril.fake_bs_flag0                                             u:object_r:system_radio_prop:s0
